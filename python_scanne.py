@@ -9,9 +9,9 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 
-server1 = '192.168.1.200'
-server2 = '192.168.0.120'
-server3 = '192.168.1.100'
+server1 = 
+server2 = 
+server3 = 
 
 
 def myping(host):
@@ -24,14 +24,14 @@ def myping(host):
     else:
         print('erro')
         # Configurar email e senha
-        EMAIL_ADDRESS = 'yashimarured@gmail.com'
-        EMAIL_PASSWORD = senha
+        EMAIL_ADDRESS = 
+        EMAIL_PASSWORD = 
 
         # Criar um e-mail
         msg = EmailMessage()
         msg['Subject'] = 'Monitoramento Servidor'
-        msg['From'] = 'yashimarured@gmail.com'
-        msg['To'] = 'guilhermeh.jesus@hotmail.com'
+        msg['From'] = 
+        msg['To'] = 
         msg.set_content('Servidor Desligado, favor verificar ...')
 
         # Enviar um email
